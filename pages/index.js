@@ -4,18 +4,18 @@ export default function Home() {
   const works = [
     {
       title: "Marco",
-      downloadLink: "http://127.0.0.1:3000/3.png?download",
-      imageUrl: "http://127.0.0.1:3000/3.png",
+      downloadLink: "/3.png?download",
+      imageUrl: "/3.png",
     },
     {
       title: "Pájaros",
-      downloadLink: "http://127.0.0.1:3000/2.png?download",
-      imageUrl: "http://127.0.0.1:3000/2.png",
+      downloadLink: "/2.png?download",
+      imageUrl: "/2.png",
     },
     {
       title: "La grandeza del Sol",
-      downloadLink: "http://127.0.0.1:3000/1.png?download",
-      imageUrl: "http://127.0.0.1:3000/1.png",
+      downloadLink: "/1.png?download",
+      imageUrl: "/1.png",
     },
   ];
 
