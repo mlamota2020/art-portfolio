@@ -47,6 +47,7 @@ export default function Home() {
                       className="aspect-square object-cover shadow-lg rounded-lg"
                       src={person.imageUrl}
                       alt=""
+                      layout="fill"
                     />
                   </div>
 
