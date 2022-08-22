@@ -1,21 +1,22 @@
+import Image from "next/image";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
   const works = [
     {
       title: "Marco",
-      downloadLink: "http://127.0.0.1:3000/3.png?download",
-      imageUrl: "http://127.0.0.1:3000/3.png",
+      downloadLink: "/3.png?download",
+      imageUrl: "/3.png",
     },
     {
       title: "Pájaros",
-      downloadLink: "http://127.0.0.1:3000/2.png?download",
-      imageUrl: "http://127.0.0.1:3000/2.png",
+      downloadLink: "/2.png?download",
+      imageUrl: "/2.png",
     },
     {
       title: "La grandeza del Sol",
-      downloadLink: "http://127.0.0.1:3000/1.png?download",
-      imageUrl: "http://127.0.0.1:3000/1.png",
+      downloadLink: "/1.png?download",
+      imageUrl: "/1.png",
     },
   ];
 
@@ -42,7 +43,7 @@ export default function Home() {
               <li key={person.title}>
                 <div className="space-y-4">
                   <div className="aspect-square">
-                    <img
+                    <Image
                       className="aspect-square object-cover shadow-lg rounded-lg"
                       src={person.imageUrl}
                       alt=""
@@ -87,7 +88,7 @@ export default function Home() {
         <footer className="bg-white">
           <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8">
             <p className="text-center text-base text-gray-400">
-              &copy; 2020 Workflow, Inc. All rights reserved.
+              &copy; 2022 Matias La Mota. All rights reserved.
             </p>
           </div>
         </footer>
